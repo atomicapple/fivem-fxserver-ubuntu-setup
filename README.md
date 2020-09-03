@@ -1,7 +1,7 @@
 # FiveM FXServer Setup Script for Ubuntu
 Compatibility: *Ubuntu LTS 16.04. / 18.04. / 20.04.* (older versions might be compatible)
 
-This bash script allows you to easily setup and upgrade your fxserver on Ubuntu. All you have to do is run the script and edit your `server.cfg` with `nano server.cfg`.
+This bash script allows you to easily setup and upgrade your fxserver on Ubuntu. All you have to do is run the script and edit your `server.cfg` with `nano server.cfg`
 
 The aim is to provide newcomers to Linux, who want to run a FiveM server, an easy way to get a basic server setup running. Currently it performs the simple setup steps that are described in https://docs.fivem.net/docs/server-manual/setting-up-a-server/ with some small twists. More features will be added iteratively. 
 
