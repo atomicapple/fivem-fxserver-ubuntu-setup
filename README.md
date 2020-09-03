@@ -7,7 +7,7 @@ The aim is to provide newcomers to Linux, who want to run a FiveM server, an eas
 
 ## Features
 1. Fully automatic first time setup
-2. Easy upgrade fxserver, just run the script again!
+2. To easily upgrade your FiveM FXServer, just run the script again!
 
 ## Instructions
 1. Check if `git` is already installed via root `apt-get install git` and add a new shell user `adduser fivemsrv`#
