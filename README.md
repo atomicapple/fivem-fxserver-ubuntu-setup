@@ -10,9 +10,10 @@ The aim is to provide newcomers to Linux, who want to run a FiveM server, an eas
 2. Easy upgrade fxserver, just run the script again!
 
 ## Instructions
-1. Check if git is already installed via `apt-get install git`
-2. Clone the repository to a folder on your server `git clone https://github.com/atomicapple/fivem-fxserver-ubuntu-setup.git`
-3. Navigate to folder `cd fivem-fxserver-ubuntu-setup`
-4. Give bash script execute permission `chmod +x fxserver_setup.sh`
-5. Run bash script `./fxserver_setup.sh`
-6. Follow instructions at the end of the script
+1. Check if git is already installed via root `apt-get install git` and add a new shell user `adduser fivemsrv`#
+2. Login to your new created user `fivemsrv` via SSH 
+3. Clone the repository to a folder on your server `git clone https://github.com/atomicapple/fivem-fxserver-ubuntu-setup.git`
+4. Navigate to folder `cd fivem-fxserver-ubuntu-setup`
+5. Give bash script execute permission `chmod +x fxserver_setup.sh`
+6. Run bash script `./fxserver_setup.sh`
+7. Follow instructions at the end of the script
