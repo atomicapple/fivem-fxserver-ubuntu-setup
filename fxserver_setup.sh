@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo -e "\e[34mAutomatic FXServer Setup Script for Ubuntu 16.04, 18.04 & 20.04. LTS"
+echo -e "\e[92mAutomatic FXServer Setup Script for Ubuntu 16.04, 18.04 & 20.04. LTS"
 echo
 echo Author: Ironlung
 echo https://discord.me/kiffen
@@ -76,7 +76,7 @@ fi
 rm -rf "$HOME/fivemsrv/temp"
 echo -e "Deleted temp folder"
 
-echo -e "\e[32mCompleted FXServer Setup!\e[39m"
+echo -e "\e[92mCompleted FXServer Setup!\e[39m"
 echo
 echo -e "Instructions to start server"
 echo "1. 'cd $HOME/fivemsrv/server-data'"
