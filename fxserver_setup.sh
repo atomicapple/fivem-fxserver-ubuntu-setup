@@ -65,7 +65,7 @@ fi
 
 if [ ! -f "$HOME/fivemsrv/server-data/server.cfg" ]; then
     echo -e "\e[32mCreating server.cfg...\e[39m"
-    wget -q --show-progress "https://gist.githubusercontent.com/d0p3t/09d9ff1dc93d2534e7eb7c2712b163a9/raw/a382d32ad3e186bef85322eda52bd44bcb10e5e2/server.cfg" -P "$HOME/fivemsrv/server-data"
+    wget -q --show-progress "https://github.com/atomicapple/fivem-fxserver-ubuntu-setup/blob/master/server.cfg" -P "$HOME/fivemsrv/server-data"
     echo -e "\e[32mDone creating server.cfg in $HOME/fivemsrv/server-data\e[39m"
     echo -e "Don't forget to add your license key to 'server.cfg'!"
 else
@@ -74,14 +74,18 @@ fi
 
 
 rm -rf "$HOME/fivemsrv/temp"
-echo -e "Deleted temp folder"
+rm -rf "$HOME/fivemsrv/server/latest_version.log"
+echo -e "Deleted temp folder and cleaning up"
 
 echo -e "\e[92mCompleted FXServer Setup!\e[39m"
+echo
+echo -e "First edit your server.cfg with 'nano $HOME/fivemsrv/server-data/server.cfg'"
+echo -e "Be sure to at least add your Server License Key"
 echo
 echo -e "Instructions to start server"
 echo "1. 'cd $HOME/fivemsrv/server-data'"
 echo "2. 'bash $HOME/fivemsrv/server/run.sh +exec server.cfg'"
 echo "or 'bash $HOME/fivemsrv/server/run.sh +exec server.cfg +set onesync legacy' if you want to enable OneSync" 
 echo
-echo "Enjoy!"
+echo "Enjoy your FiveM Server!"
 echo
