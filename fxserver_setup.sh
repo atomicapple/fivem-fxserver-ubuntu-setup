@@ -65,7 +65,7 @@ fi
 
 if [ ! -f "$HOME/fivemsrv/server-data/server.cfg" ]; then
     echo -e "\e[32mCreating server.cfg...\e[39m"
-    wget -q --show-progress "https://github.com/atomicapple/fivem-fxserver-ubuntu-setup/blob/master/server.cfg" -P "$HOME/fivemsrv/server-data"
+    wget -q --show-progress "https://gist.githubusercontent.com/atomicapple/ec69b51b36b079d119d6ca8508ba738c/raw/32a3819d0b9ca941e0b0e41e49ef0f509bad7981/server.cfg" -P "$HOME/fivemsrv/server-data"
     echo -e "\e[32mDone creating server.cfg in $HOME/fivemsrv/server-data\e[39m"
     echo -e "Don't forget to add your license key to 'server.cfg'!"
 else
