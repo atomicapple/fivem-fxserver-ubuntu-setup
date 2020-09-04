@@ -76,7 +76,7 @@ fi
 rm -rf "$HOME/fivemsrv/temp"
 rm -rf "$HOME/fivemsrv/server/latest_version.log"
 echo -e "Deleted temp folder and cleaning up"
-
+echo
 echo -e "\e[92mCompleted FXServer Setup!\e[39m"
 echo
 echo -e "First edit your server.cfg with 'nano $HOME/fivemsrv/server-data/server.cfg'"
