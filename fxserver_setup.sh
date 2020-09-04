@@ -35,7 +35,7 @@ fi
 echo -e "\e[32mDone creating directories.\e[39m"
 
 echo -e "\e[32mGrabbing latest FXServer build version...\e[39m"
-LATEST_VERSION=`wget -q -O - https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/ | grep '<a href' | tail -1 | grep -Po '(?<=href=").{46}'`
+LATEST_VERSION=`wget -q -O - https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/ | grep '<a href' | tail -1 | grep -Po '(?<=href=").{47}'`
 echo Latest FXServer build: $LATEST_VERSION
 
 if [ ! -f "$HOME/fivemsrv/server/latest_version.log" ]; then
