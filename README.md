@@ -12,7 +12,7 @@ Currently it performs the simple setup steps that are described in https://docs.
 2. To easily upgrade your FiveM FXServer, just run the script again!
 
 ## Instructions
-1. Check if `git` is already installed via root `apt-get install git` and add a new shell user `adduser fivemsrv`#
+1. Check if `git` is already installed via root `apt-get install git` and add a new shell user `adduser fivemsrv`
 2. Login to your new created user `fivemsrv` via SSH 
 3. Clone the repository to a folder on your server `git clone https://github.com/atomicapple/fivem-fxserver-ubuntu-setup.git`
 4. Navigate to folder `cd fivem-fxserver-ubuntu-setup`
